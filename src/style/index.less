@@ -1,4 +1,4 @@
-// 公共样式
+// public style
 body,
 ul,
 li,
@@ -70,7 +70,7 @@ body {
     padding: 0;
 }
 
-// 公共css
+// public css
 .margin-bottom{
     margin-bottom: 30px;
 }
@@ -193,7 +193,7 @@ body {
 .margin-tb{
     margin: 20px 0;
 }
-// 公共样式
+
 @media screen and (max-width: 1180px) {
     .maxCom {
         width: 1180px!important;
@@ -223,10 +223,6 @@ body {
 }
 
 
-/* 超出部分显示省略号 */
-
-
-/* 单行 */
 
 .text-cut {
     overflow: hidden;
@@ -235,34 +231,23 @@ body {
 }
 
 
-/* 多行 */
 
 .text-cut-2 {
     width: 100%;
     overflow: hidden;
-    /* 将对象作为弹性伸缩盒子模型显示 */
     display: -webkit-box;
-    /* 设置伸缩盒子对象的子元素的排列方式 */
     -webkit-box-orient: vertical;
-    /* 限制显示几行 */
     -webkit-line-clamp: 2;
-    /* 让浏览器实现在任意位置的换行 */
     word-break: break-all;
 }
 
 .nav-list {
     -moz-user-select: none;
-    /* Firefox私有属性 */
     -webkit-user-select: none;
-    /* WebKit内核私有属性 */
     -ms-user-select: none;
-    /* IE私有属性(IE10及以后) */
     -khtml-user-select: none;
-    /* KHTML内核私有属性 */
     -o-user-select: none;
-    /* Opera私有属性 */
     user-select: none;
-    /* CSS3属性 */
 }
 .blue{
     color: #409EFF;

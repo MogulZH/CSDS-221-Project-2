@@ -1,5 +1,5 @@
 import {createRouter, createWebHistory} from 'vue-router'
-// vue-router使用
+// vue-router
 export default createRouter({
     'history':createWebHistory(),
     'routes':[
@@ -14,7 +14,7 @@ export default createRouter({
         },
     ],
     scrollBehavior (to, from, savedPosition) {
-        // 滚动到顶部
+        // scroll to the top
         return { top: 0 }
       }
 })

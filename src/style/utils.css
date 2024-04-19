@@ -1,6 +1,5 @@
 
 
-/* 提示信息 */
 
 .cdl-msg {
     position: fixed;
@@ -40,14 +39,14 @@
     font-size: 14px;
 }
 
-/* 成功 */
+/* success */
 
 .cdl-msg.success {
     background-color: #67C23A;
     border-color: #67C23A;
 }
 
-/* 错误 */
+/* fail */
 
 .cdl-msg.error {
     background-color: #EF797A;

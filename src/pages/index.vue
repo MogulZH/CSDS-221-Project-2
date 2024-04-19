@@ -53,7 +53,7 @@
       </tbody>
     </table>
     <div style="text-align: center;" v-if="list.length == 0">
-      暂无数据
+      no data
     </div>
     <div class="modal" tabindex="-1" style="display: block!important" v-if="ishow">
       <div class="modal-dialog">
@@ -84,7 +84,6 @@
             <div class="mb-3">
               <label for="exampleFormControlInput1" class="form-label">Priority</label>
               <div style="display: flex; align-items: center;">
-                <!-- 单选框  -->
                 <div class="form-check" style="margin-right: 20px;" @click="form.priority = 'Low'">
                   <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                   <label class="form-check-label" for="flexRadioDefault1">
